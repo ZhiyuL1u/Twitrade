@@ -1,0 +1,66 @@
+/* src/styles/SocialMediaStats.css */
+
+/* Main container styles */
+.SocialMediaStats {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Input and button styles */
+.SocialMediaStats input,
+.SocialMediaStats button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Disabled button styles */
+.SocialMediaStats button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error message styles */
+.error {
+    color: red;
+}
+
+/* Loading message styles */
+.loading {
+    color: #0056b3;
+}
+
+/* Container for stats and charts */
+.stats-container,
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Specific styles for pie charts in the SocialMediaStats component */
+.SocialMediaStats .pie-chart-container {
+    flex: 1 1 50%;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Reputation Index section styles */
+.chart-container p {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the Reputation Index value */
+.chart-container p:last-child {
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+}

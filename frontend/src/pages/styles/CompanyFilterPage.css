@@ -1,0 +1,28 @@
+/* styles/CompanyFilterPage.css */
+.CompanyFilterPage {
+    padding: 20px;
+}
+
+.CompanyFilterPage input, .CompanyFilterPage button {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.CompanyFilterPage button {
+    padding: 10px 20px;
+}
+
+.CompanyFilterPage table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.CompanyFilterPage th, .CompanyFilterPage td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+}
+
+.CompanyFilterPage tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

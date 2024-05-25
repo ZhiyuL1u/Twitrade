@@ -1,0 +1,56 @@
+/* HomePage.css */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.section h2 {
+    color: #333;
+}
+
+.section p {
+    color: #666;
+    padding: 0px 10px;
+}
+
+.section h3 {
+    color: #0056b3;
+    padding: 15px;
+}
+
+/* Added styles for clickable company names and the modal close button */
+.company-name {
+    color: #0073e6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0073e6;
+    cursor: pointer;
+    padding: 0 10px;
+    line-height: 20px;
+}
+
+.close:hover {
+    color: #ff0000;
+}
